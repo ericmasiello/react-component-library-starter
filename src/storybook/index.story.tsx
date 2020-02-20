@@ -3,10 +3,10 @@ import { storiesOf } from '@storybook/react';
 import './styles.scss';
 import styles from './indexStory.module.scss';
 
-storiesOf('Welcome', module).add('to <Placeholder Title Goes Here>', () => (
+storiesOf('Welcome', module).add('to Merchandising UI', () => (
   <div>
     <header className={styles.header}>
-      <h1 className={styles.title}>Placeholder Title Goes Here</h1>
+      <h1 className={styles.title}>Merchandising UI</h1>
     </header>
   </div>
 ));
