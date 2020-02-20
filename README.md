@@ -13,15 +13,13 @@ npm install --save react-component-library-starter
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MyComponent from 'react-component-library-starter'
+import MyComponent from 'react-component-library-starter';
 
 class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <MyComponent />;
   }
 }
 ```
