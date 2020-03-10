@@ -10,4 +10,9 @@ const Foo: React.FC<FooProps> = props => {
   return <Component className={classes} {...rest} />;
 };
 
+// eslint-disable-next-line
+Foo.defaultProps = {
+  className: 'i-am-foo',
+};
+
 export default Foo;

@@ -10,4 +10,10 @@ const Bar: React.FC<BarProps> = props => {
   return <Component className={classes} {...rest} />;
 };
 
+// eslint-disable-next-line
+Bar.defaultProps = {
+  className: 'i-am-bar',
+  as: 'div',
+};
+
 export default Bar;
