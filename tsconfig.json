@@ -4,7 +4,6 @@
     "removeComments": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "declaration": true,
     "target": "es5",
     "jsx": "react"
   },
