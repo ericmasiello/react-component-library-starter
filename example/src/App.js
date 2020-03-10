@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { Example } from 'react-component-library-starter';
-import 'react-component-library-starter/dist/index.es.css';
+import 'react-component-library-starter/dist/index.css';
 
 export default class App extends Component {
   render() {
