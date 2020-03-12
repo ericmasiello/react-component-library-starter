@@ -4,8 +4,12 @@
     "removeComments": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "target": "es5",
-    "jsx": "react"
+    "target": "ESNEXT",
+    "jsx": "react",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["src/**/__tests__/**/*", "src/**/*.story.tsx", "src/storybook/", "node_modules"]
 }
